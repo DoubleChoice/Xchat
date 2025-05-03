@@ -23,6 +23,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Xchat
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        res.qrc
+        logindialog.h logindialog.cpp logindialog.ui
+        registerdialog.h registerdialog.cpp registerdialog.ui
+        globe.h
+        globe.cpp
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Xchat APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

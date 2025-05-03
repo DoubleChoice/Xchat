@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>img_res/XchatIcon.jpg</file>
+        <file>img_res/avatar.jpg</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>stylesheet.qss</file>
+    </qresource>
+</RCC>
